@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet! No Wheat | Gluten-Free Bake Shoppe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Sweet! No Wheat</h1>
+    <p class="tagline">a dedicated gluten-free bake shoppe</p>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Find Us</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Cakes • Cupcakes • Fan Faves!</h2>
+        <p>
+          All products are 100% gluten free and celiac sweet treat lovers approved.
+          We also carry three house-formulated espresso roasts, handcrafted into artisan lattes.
+        </p>
+        <p class="hours">
+          <strong>Business Hours:</strong> Mon–Sat 7:30AM–7PM | Sundays Closed
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="images/cake.png" alt="Gluten-free cakes made in-house">
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="column">
+        <h3>About Us & Our Origin</h3>
+        <p>Our excellent owner started Sweet! No Wheat to bring Richmond delicious, 100% gluten-free baked goods made with love, care, and creativity.</p>
+      </div>
+
+      <div class="column">
+        <h3>Events & Gatherings</h3>
+        <p>No Gluten Allowed! Join us for monthly tastings, pop-up markets, and local RVA events celebrating the joy of gluten-free living.</p>
+      </div>
+
+      <div class="column">
+        <h3>Our Mission</h3>
+        <p>We believe everyone deserves sweet treats without compromise. Every pastry is baked with integrity, flavor, and fun—gluten-free, always.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2 class="visually-hidden">Get Started</h2>
+      <a href="#" class="button">Order Now</a>
+      <a href="#" class="button secondary">Learn More</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sweet! No Wheat | <a href="https://sweetnowheat.com">sweetnowheat.com</a></p>
+  </footer>
+</body>
+</html>
