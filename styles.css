@@ -1,6 +1,6 @@
 /* ==============================
    Sweet! No Wheat | styles.css
-   Home Page + Positioning
+   Global Styles for All Pages
    ============================== */
 
 * {
@@ -114,7 +114,7 @@ nav a:visited {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* --- INFO SECTION --- */
+/* --- INFO SECTION (used on About, Find Us, Order, Events) --- */
 .info {
   display: flex;
   flex-wrap: wrap;
@@ -142,7 +142,7 @@ nav a:visited {
   margin-bottom: 10px;
 }
 
-/* --- CTA SECTION --- */
+/* --- CTA SECTION (buttons for homepage / order links) --- */
 .cta {
   text-align: center;
   padding: 40px 20px;
@@ -212,6 +212,14 @@ footer a:hover {
   nav li {
     margin: 8px;
   }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info .column {
+    margin: 15px auto;
+  }
 }
 
 /* ============================
@@ -274,4 +282,31 @@ form button {
 form button:hover {
   background-color: #ffcc99;
   color: #4a2600;
+}
+
+/* ============================
+   SMALL ADDITIONS FOR ORDER & EVENTS
+   ============================ */
+.order-info,
+.events-info {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff7f0;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.order-info h3,
+.events-info h3 {
+  color: #a0522d;
+  margin-bottom: 15px;
+}
+
+.order-info p,
+.events-info p {
+  font-size: 1rem;
+  color: #5a4634;
+  line-height: 1.6;
 }
