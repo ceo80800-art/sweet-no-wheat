@@ -1,9 +1,8 @@
 /* ==============================
    Sweet! No Wheat | styles.css
-   Full Site + Contact Form
+   Home Page + Positioning
    ============================== */
 
-/* --- GLOBAL --- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,7 +63,7 @@ nav a {
   transition: all 0.3s ease;
 }
 
-/* --- NAV PSEUDO-CLASSES --- */
+/* --- PSEUDO-CLASSES --- */
 nav a:hover {
   background-color: #ffcc99;
   color: #4a2600;
@@ -179,60 +178,6 @@ nav a:visited {
   color: #4a2600;
 }
 
-/* --- CONTACT FORM SECTION --- */
-#contact-form {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 30px;
-  background-color: #fff3e0;
-  border: 2px solid #f3d1b2;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#contact-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #8b4513;
-}
-
-#contact-form input,
-#contact-form textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #d48c3b;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-}
-
-#contact-form textarea {
-  resize: vertical;
-}
-
-#contact-form button {
-  display: inline-block;
-  background-color: #a0522d;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 12px 25px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-#contact-form button:hover {
-  background-color: #ffcc99;
-  color: #4a2600;
-}
-
-#contact-form button:active {
-  background-color: #ffb366;
-}
-
 /* --- FOOTER --- */
 footer {
   background-color: #8b4513;
@@ -268,7 +213,11 @@ footer a:hover {
     margin: 8px;
   }
 }
-/* --- CONTACT PAGE FORM --- */
+
+/* ============================
+   CONTACT PAGE FORM STYLING
+   ============================ */
+
 .contact-container {
   max-width: 600px;
   margin: 60px auto;
